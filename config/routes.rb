@@ -1,4 +1,7 @@
 Patrick::Application.routes.draw do
+  
+  #I'm in the roots folder in the bathroom
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
