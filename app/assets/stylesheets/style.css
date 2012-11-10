@@ -1,0 +1,311 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, applet, object, iframe, p, blockquote, pre, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, li, ul,
+dl, dt, dd, ol, 
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	background-color:#000;
+	font-family: Helvetica;
+	color:#fff;
+	text-decoration:none;
+}
+a {
+	text-decoration:none;
+	color:#fff;
+}
+
+a:visited {
+	color:#fff;
+}
+
+body {
+	position:relative;
+	
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* END RESET */
+
+
+/*-------------NAV--------------*/	
+
+nav {
+	z-index:20;
+}
+
+.navLi {
+	float: left;
+	padding:1%;
+	text-transform:uppercase;
+	text-decoration:none;
+	position:relative;
+}
+
+
+.navLi:hover {
+	color:#fff;
+	background:none;
+}
+
+.subLi {
+	background:none;
+	padding:6% 0 0 0;
+}
+
+
+
+.subLi a:hover {
+	color:#CCC;
+}
+
+li.navLi ul {
+	display:none;
+	background:none;
+}
+
+li.navLi:hover ul {
+	display:block;
+	z-index:2;
+}
+
+
+/*------------MAIN--------------*/
+
+
+h1 {
+	margin:4% 0 2% 0;
+}
+
+h2 { 
+	margin:20px; 
+	width:100%; 
+	color:#fff;
+}
+
+.homeLinks {
+	margin:15px 0 35px 55px;
+	font-size:56px;
+	letter-spacing:6px;
+	
+}
+
+.homeLinks a {
+	color:#555;
+}
+
+.homeLinks a:hover {
+	color:#fff;
+}
+
+#homeList {
+	margin: 30px 0 0 10px;
+}
+
+.contentText {
+		margin:0 0 0 35px; 		
+		color:#CCC;
+		width:100%; 
+}
+
+#content {
+	width:500px;	
+}
+
+/* -------slideshows --------- */
+
+#homePic {
+	width:1171px;
+	height:327px;
+	background-image:url(cover1.jpg);
+}
+
+
+#actionShow {
+	width:1171px;
+	height:327px;
+	background-image:url(cover2.jpg);
+}
+
+#landscapeShow {
+	width:1171px;
+	height:327px;
+	background-image:url(landscape.jpg);
+}
+
+#weddingShow {
+	width:1171px;
+	height:327px;
+	background-image:url(weddingShow.jpg);
+}
+
+#wildShow {
+	width:1171px;
+	height:327px;
+	background-image:url(wildlife.jpg);
+}
+
+#closeShow {
+	width:1171px;
+	height:327px;
+	background-image:url(close.jpg);
+	
+}
+
+#orderPic {
+	width:1171px;
+	height:327px;
+	background-image:url(order.jpg);
+}
+
+/*---------image pages-------------*/
+
+#thumbs {
+	width:520px;
+	height:520px;
+	background-color:#222;
+	margin: 0 0 0 30px;
+	overflow:auto;
+}
+
+.thumb {
+	width:105px;
+	height:105px;
+	margin:10px;
+	background-image:url(krwnBLNK.jpg);
+	float:left;
+}
+
+.thumb:hover {
+	cursor:pointer;
+}
+
+#photo {
+	width:550px;
+	height:550px;
+	position:absolute;
+	top:415px;
+	left:580px;
+	background-image:url(krwnBLNK2.jpg);
+}
+
+#buy {
+	position:absolute;
+	top:1000px;
+	left:729px;
+	font-size:36px;
+	color:#fff;
+}
+
+/*-----------oder page----------*/
+
+#selectedPic {
+	width:550px;
+	height:550px;
+	background-image:url(krwnBLNK2.jpg);
+	margin: 25px 0 0 25px;
+}
+
+#orderForm {
+	position:absolute;
+	top:500px;
+	left:600px;
+}
+
+.submit {
+	margin:0 20px 0 0;
+	background-color:#CCC;
+	color:#000;
+	float:left;
+}
+
+.submit:visited {
+	color:#000;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  =--------FOOTER----------- */
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
