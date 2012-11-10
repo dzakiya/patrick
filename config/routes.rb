@@ -1,5 +1,17 @@
 Patrick::Application.routes.draw do
   
+  get "images/wedding"
+
+  get "images/action"
+
+  get "images/landscape"
+
+  get "images/bw"
+
+  get "images/wild"
+
+  get "images/close"
+
   #I'm in the roots folder in the bathroom
   
   # The priority is based upon order of creation:
